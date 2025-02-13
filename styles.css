@@ -1,16 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'federo','Potta One',sans-serif;
     background: #f9f9f9;
     text-align: center;
+    width: 100%;
 }
-.trending {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+
 .categories-container {
     display: flex;
     align-items: center;
@@ -24,6 +18,7 @@ body {
     white-space: nowrap;
     max-width: 80%;
     margin-left: 134px;
+    width: 1110px;
 }
 .categories::-webkit-scrollbar {
     display: none;
@@ -74,12 +69,144 @@ body {
     color: #777;
 }
 .nav-button{
-margin-left: 690px;
+    margin-left: 690px;
 }
-
-.contener{
+.footer_in{
+    text-align: center;
+    margin-left: 146px;
+    width: 152px;
+}
+.container{
     display: flex;
+    margin-top: 142px;
+    width: 1440px;
+    background: url(img/vecteezy_interior-of-a-modern-living-room-in-3d-rendering_2070138\ 1.png) center no-repeat;
+    background-size: cover;
+    padding: 224px 0 221px;
 }
 .txt{
     text-align: center;
+}
+
+.link{
+    padding: 16px 0 17px;
+    width: 332px;
+    height: 52px;
+    color: #7a7a7a;
+}
+.category{
+    width: 56px;
+}
+
+.txt{
+    text-align: center;
+}
+.footer_link{
+    display: block;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+.productc-card{
+    width: 160px;
+    margin-left: 203px;
+    margin-top: 53px;
+}
+
+.txt{
+    font-weight: 400;
+    size: 45px;
+    width: 108px;
+    height: 65px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.promo-card {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.content {
+    flex: 1;
+    padding-left: 30px;
+}
+.badge {
+    display: inline-block;
+    background: #5a7db3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.price {
+    color: #3366cc;
+    font-size: 24px;
+    font-weight: bold;
+}
+.description {
+    margin: 15px 0;
+    color: #555;
+}
+.shop-button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.items {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.items img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    background: white;
+}
+.foot_tit{
+    font-family: 'Potta One';
+    font-size: 45px;
+    width: 108px;
+    height: 65px;
+    color: #424346;
+}
+.footer_tit{
+    color: #000;
+}
+.footer_list{
+    list-style: none;
+    color: #8A8A8A;
+    width: 137px;
+    height: 180px;
+}
+li{
+    margin-bottom: 12px;
+    list-style: none;
 }

@@ -3,22 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <title>Drile</title>
 </head>
 <body>
-    <section class="trending">
+    <section class="contenerc">
         <h1>TRENDING CATEGORIES</h1>
-        <button id="prev" class="naz-button">&#10094;</button>
-        <div class="categories">
-            <p class="category active">DRESSING TABLE</p>
-            <p class="category">LAMP </p>
-            <p class="category">CABINET</p>
-            <p class="category">SOFA</p>
-            <p class="category">CHAIR</p>
-            <p class="category">BED</p>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="productc-card">
+                        <img src="img/DRESSING TABLE.png" alt="">
+                        <h5>DRESSING TABLE</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide"> 
+                    <div class="productc-card">
+                        <img src="img/LAMP .png" alt="">
+                        <h5>LAMP</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                            <div class="productc-card">
+                        <img src="img/CABINET.png" alt="">
+                        <h5>CABINET</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                            <div class="productc-card">
+                        <img src="img/SOFA.png" alt="">
+                        <h5>SOFA</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                            <div class="productc-card">
+                        <img src="img/CHAIR.png" alt="">
+                        <h5>CHAIR</h5>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                            <div class="productc-card">
+                        <img src="img/BED.png" alt="">
+                        <h5>BED</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
         </div>
-        <button id="prev" class="naz-button">&#10094;</button>
+        <div class="arrow-right"></div>
         <div class="products">
             <div class="product-card">
                 <img src="img/Vasagle.png" alt="Vasagle Vanity Table">
@@ -43,8 +85,8 @@
         </div>
     </section>
     <section>
-        <div class="contener">
-            <h1 class="txt">Drile</h1>
+        <div class="c">
+            <h2 class="foot_tit">Drile</h2>
             <div class="footer_in">
                 <div class="footer_tit">ABOUT US</div>
                 <ul class="footer_list">
@@ -78,17 +120,20 @@
             <div class="footer_in">
                 <div class="footer_tit">FOLLOW US</div>
                 <a href="" class="footer_link">
-                    <img src="img/Vector (7).png" alt="">
+                    <img src="img/Vector (7).png" alt="+">
                 </a>
                 <a href="" class="footer_link">
-                    <img src="img/Vector (8).png" alt="">
+                    <img src="img/Vector (8).png" alt="Twitter">
                 </a>
                 <a href="" class="footer_link">
-                    <img src="img/Vector (9).png" alt="">
+                    <img src="img/Vector (9).png" alt="Instagram">
                 </a>
             </div>
         </div>
+        <a class="link" href="">© Copyright 2022 | drile | All right reserved.</a>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

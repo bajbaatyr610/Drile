@@ -24,3 +24,17 @@ document.addEventListener("DOMContentLoaded", function() {
         updateSlider();
     }, 3000);
 });
+const swiper = new Swiper('.swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        },
+});
+document.querySelectorAll('.thumb').forEach(item => {
+    item.addEventListener('click', function() {
+        document.getElementById('mainImage').src = this.src;
+    });
+});
