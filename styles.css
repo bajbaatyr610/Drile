@@ -57,7 +57,6 @@ body {
     width: 200px;
 }
 .product-card img {
-    width: 100%;
     border-radius: 5px;
 }
 .product-card h2 {
@@ -71,19 +70,6 @@ body {
 .nav-button{
     margin-left: 690px;
 }
-.footer_in{
-    text-align: center;
-    margin-left: 146px;
-    width: 152px;
-}
-.container{
-    display: flex;
-    margin-top: 142px;
-    width: 1440px;
-    background: url(img/vecteezy_interior-of-a-modern-living-room-in-3d-rendering_2070138\ 1.png) center no-repeat;
-    background-size: cover;
-    padding: 224px 0 221px;
-}
 .txt{
     text-align: center;
 }
@@ -91,7 +77,7 @@ body {
 .link{
     padding: 16px 0 17px;
     width: 332px;
-    height: 52px;
+    height: 52px; 
     color: #7a7a7a;
 }
 .category{
@@ -105,7 +91,7 @@ body {
     display: block;
 }
 .swiper {
-    width: 600px;
+    max-width:min-content;
     height: 300px;
     text-align: center;
 }
@@ -192,21 +178,154 @@ body {
 }
 .foot_tit{
     font-family: 'Potta One';
-    font-size: 45px;
-    width: 108px;
-    height: 65px;
-    color: #424346;
-}
-.footer_tit{
-    color: #000;
-}
-.footer_list{
-    list-style: none;
-    color: #8A8A8A;
-    width: 137px;
-    height: 180px;
 }
 li{
     margin-bottom: 12px;
     list-style: none;
+}
+.TRENDING{
+    width: 470px;
+    height: 50px;
+    font-family: 'federo';
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 12px;
+}
+.social_card {
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin-left: 40px;
+    margin-block: -18px;
+    margin-top: -7px;
+}
+
+.social_card h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.social_card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social_card li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.social_card img {
+    width: 20px;
+    height: 20px;
+}
+
+.social_card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.social_card a:hover {
+    color: #007bff;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background: url('img/vecteezy_interior-of-a-modern-living-room-in-3d-rendering_2070138\ 1.png') center/cover no-repeat,#f8f8f8;
+    padding: 100px 50px;
+    position: relative;
+    text-align: center;
+    margin-top: 142px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo-section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.logo-section h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #222;
+    font-family: 'Potta One', sans-serif; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    letter-spacing: 1px;
+}
+.contaner{
+    width: 1110px;
+    text-align: center;
+    margin-left: 211px;
+}
+.footer-section h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #000;
+}
+
+.footer_bottom {
+    font-size: 14px;
+    color: #666;
+    padding: 16px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+}
+
+.social-links li a::before {
+    content: '';
+    display: inline-block;
+    margin-right: 8px;
 }

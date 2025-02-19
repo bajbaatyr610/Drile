@@ -10,19 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Federo&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"><u> <h1><a href=""><div><h2><h3><h4><h5><h6></h6></h5></h4></h3></h2></div></a></h1></u>
     <title>Drile</title>
 </head>
 <body>
     <section class="contenerc">
-        <h1>TRENDING CATEGORIES</h1>
+        <h1 class="TRENDING">TRENDING CATEGORIES</h1>
+        <div class="contaner">
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="productc-card">
                         <img src="img/DRESSING TABLE.png" alt="">
                         <h5>DRESSING TABLE</h5>
-                    </div>
+                    </div>                     
                 </div>
                 <div class="swiper-slide"> 
                     <div class="productc-card">
@@ -54,12 +55,19 @@
                         <h5>BED</h5>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <div class="productc-card">
+                <img src="img/CABINET.png" alt="">
+                <h5>CABINET</h5>
+            </div>
+        </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
+            <div class="swiper-button-next" id="next"></div>
+            <div class="swiper-scrollbar" id="prev"></div>
         </div>
+    </div>
         <div class="arrow-right"></div>
         <div class="products">
             <div class="product-card">
@@ -84,55 +92,62 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="c">
-            <h2 class="foot_tit">Drile</h2>
-            <div class="footer_in">
-                <div class="footer_tit">ABOUT US</div>
-                <ul class="footer_list">
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms of Service</li>
-                    <li></li>
+    
+
+<footer>
+    <div class="footer-container">
+        <div class="logo-section">
+            <h1>Drile</h1>
+        </div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
-            <div class="footer_in">
-                <div class="footer_tit">COMPANY</div>
-                <ul class="footer_list">
-                    <li>Explore World</li>
-                    <li>Trending Video</li>
-                    <li>Book a Trip</li>
-                    <li>Visit Gallery</li>
-                    <li></li>
+            <div class="footer-section">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">Explore World</a></li>
+                    <li><a href="#">Trending Video</a></li>
+                    <li><a href="#">Book a Trip</a></li>
+                    <li><a href="#">Visit Gallery</a></li>
                 </ul>
             </div>
-            <div class="footer_in">
-                <div class="footer_tit">USEFUL LINKS</div>
-                <ul class="footer_list">
-                    <li>Buy this theme</li>
-                    <li>Drile Landing</li>
-                    <li>Documentation</li>
-                    <li>Video tutorial</li>
-                    <li></li>
+            <div class="footer-section">
+                <h4>USEFUL LINKS</h4>
+                <ul>
+                    <li><a href="#">Buy this theme</a></li>
+                    <li><a href="#">Drile Landing</a></li>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Video tutorial</a></li>
                 </ul>
             </div>
-            <div class="footer_in">
-                <div class="footer_tit">FOLLOW US</div>
-                <a href="" class="footer_link">
-                    <img src="img/Vector (7).png" alt="+">
-                </a>
-                <a href="" class="footer_link">
-                    <img src="img/Vector (8).png" alt="Twitter">
-                </a>
-                <a href="" class="footer_link">
-                    <img src="img/Vector (9).png" alt="Instagram">
-                </a>
+            <div class="social_card">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li>
+                        <img src="img/Vector (7).png" alt="Facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61572976538998&sk=about">Facebook</a>
+                    </li>
+                    <li>
+                        <img src="img/Vector (8).png" alt="Twitter">
+                        <a href="https://x.com/twitter?lang=en&mx=2">Twitter</a>
+                    </li>
+                    <li>
+                        <img src="img/Vector (9).png" alt="Instagram">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <a class="link" href="">© Copyright 2022 | drile | All right reserved.</a>
-    </section>
-
+    </div>
+</footer>
+    <p class="footer_bottom">&copy; Copyright 2022 | drile | All rights reserved.</p>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
